@@ -9,7 +9,7 @@ const pool = new Pool({
     "postgres://default:VG0Qvzr9qMoW@ep-morning-frost-10189410-pooler.ap-southeast-1.aws.neon.tech:5432/verceldb?sslmode=require",
 });
 
-// Middleware
+
 app.use(express.json());
 app.use(cors());
 
